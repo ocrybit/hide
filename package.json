@@ -63,7 +63,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "prettier --write **/*.js",
-    "lint:check": "prettier --check **/*.js"
+    "lint:check": "prettier --check **/*.js",
+    "preinstall": "./src/deps.ts"
   },
   "bit": {
     "env": {},
