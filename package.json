@@ -65,9 +65,9 @@
     "web3modal": "^1.9.3"
   },
   "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start",
+    "dev": "NODE_OPTIONS=--openssl-legacy-provider next",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider next build",
+    "start": "NODE_OPTIONS=--openssl-legacy-provider next start",
     "lint": "prettier --write **/*.js",
     "lint:check": "prettier --check **/*.js"
   },
